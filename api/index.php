@@ -1,7 +1,8 @@
 <?php
-error_reporting(E_ALL & ~E_DEPRECATED);
 
 declare(strict_types=1);
+
+error_reporting(E_ALL & ~E_DEPRECATED);
 
 // load functions
 require_once dirname(__DIR__, 1) . "/vendor/autoload.php";
